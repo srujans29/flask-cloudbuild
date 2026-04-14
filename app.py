@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 
 def hello():
-    return "Hello,World from Cloud Build"
+    return "Hello World from Cloud Build"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
