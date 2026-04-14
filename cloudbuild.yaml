@@ -16,3 +16,6 @@ steps:
   
 images:
   - 'gcr.io/flask-app-492709/flask-app'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
